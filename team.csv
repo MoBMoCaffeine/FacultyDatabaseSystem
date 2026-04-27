@@ -1,11 +1,12 @@
-Ahmed, Khalid, Mohamed, Bershawy
-Hazem, Ahmed, Hamdy, Radwan
-Areej, Hesham, Mohamed, Abdel'aal
-Mohamed, Ahmed, Mohamed, Almo'ez
-Hadeer, Montaser, Ali, Rawiy
-Yasser, Osama, Mohamed, Ali
-Abdulrahman, Mohamed, Mohamed, Abbas
-Engy, Ashraf, Hassan, Qenawy
-Ola, Mahmoud, Mohamed, Ahmed
-Habiba, Ahmed, Abbas,
-Mohamed, Bakr, Mohamed, Mahmoud
+First_name, Second_Name, Last_Name, Role
+Ahmed, Khalid, Bershawy, DBA - Tester
+Hazem, Ahmed, Hamdy, Architect - Analyst
+Areej, Hesham, Mohamed, Developer
+Mohamed, Ahmed, Almo'ez, Architect - Analyst
+Hadeer, Montaser, Ali, Developer
+Yasser, Osama, Mohamed, Developer
+Abdulrahman, Mohamed, Abbas, Architect - Analyst
+Engy, Ashraf, Hassan, Developer
+Ola, Mahmoud, Mohamed, Developer
+Habiba, Ahmed, Abbas, Developer
+Mohamed, Bakr, Mohamed, NULL
