@@ -1,4 +1,5 @@
-
+USE FacultyDBS;
+GO
 -- testing columns names:
 PRINT '===================';
 PRINT 'Course Table';
@@ -52,6 +53,7 @@ SELECT
 FROM Student S
 JOIN Student_Phone P ON S.StudentID = P.StudentID;
 
+-- retrieve the number of phone numbers for each student:
 SELECT s.StudentID, s.FirstName, COUNT(p.PhoneNumber) AS PhoneCount
 FROM Student s
 LEFT JOIN Student_Phone p ON s.StudentID = p.StudentID
@@ -60,7 +62,8 @@ GROUP BY s.StudentID, s.FirstName;
 -- retrieve students whose GPA is above average:
 SELECT *
 FROM Student
-WHERE GPA > (SELECT AVG(GPA) FROM Student);
+WHERE GPA > (SELECT AVG(GPA) AS Aerage_GPA FROM Student)
+ORDER BY GPA DESC;
 
 -- retrieve all courses with the number of students in them: 
 SELECT c.Course_Name, COUNT(e.NationalID) AS StudentCount
